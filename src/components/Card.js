@@ -3,8 +3,8 @@ import { BsFillBagFill } from "react-icons/bs";
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
     <>
-      <section className="card" style={{ width: "20em", height: "25em" }}>
-      <img style={{ width: "15em", height: "15em" }} src={img} alt={title} className="card-img" />
+      <section className="card" style={{ width: "17em", height: "25em" }}>
+      <img style={{ width: "13em", height: "13em" }} src={img} alt={title} className="card-img" />
         
         <div className="card-details">
           <h3 className="card-title">{title}</h3>
